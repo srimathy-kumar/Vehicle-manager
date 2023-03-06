@@ -6,5 +6,8 @@ public class Vehicle{
 		//System.out.println("Hello");
 		PetrolEngine pE=new PetrolEngine();
 		pE.start();
+		
+		DieselEngine dE=new DieselEngine();
+		dE.start();
 	}
 }
